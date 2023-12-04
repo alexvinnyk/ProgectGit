@@ -1,0 +1,13 @@
+Action action = new Action(Driver getDriver);
+action click().perform()
+
+Select select = new Select(driver.getDriver.findElement(By.xpath();
+Select By= visibleText,index value
+List <WebElement>options= select.getOptions;
+for(WebElement each: options)
+
+String window = driver.getWindowHandels();
+Set<String> window =driver.getWindowHandels();
+for(String handle : window){
+if (hendle.equals(curentWindos))
+}
