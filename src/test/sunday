@@ -10,4 +10,6 @@ String window = driver.getWindowHandels();
 Set<String> window =driver.getWindowHandels();
 for(String handle : window){
 if (hendle.equals(curentWindos))
+hendle.toSwiTchTo().
 }
+
