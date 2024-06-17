@@ -8,8 +8,8 @@ for(WebElement each: options)
 
 String window = driver.getWindowHandels();
 Set<String> window =driver.getWindowHandels();
-for(String handle : window){
-if (hendle.equals(curentWindos))
-hendle.toSwiTchTo().
+for(String each : window){
+if (each.equals(curentWindos))
+driver.swiTchTo().Window(each)
 }
 
