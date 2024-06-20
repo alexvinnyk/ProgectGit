@@ -13,3 +13,4 @@ if (each.equals(curentWindos))
 driver.swiTchTo().Window(each)
 }
 
+
