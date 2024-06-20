@@ -1,0 +1,11 @@
+
+
+
+
+ // Select select = new Select (driver.get driver())
+ List < WebElement> web = select.getOption();
+ List<String> str = new ArrayList();
+ for (WebElement each : web){
+ str.add(each.getText) ;
+
+ }
