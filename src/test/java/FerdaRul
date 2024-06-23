@@ -1,0 +1,14 @@
+1. Create a branch from master
+2.Write all your code at that branch
+3.Make a commit to all change and untrack documents
+4.Write an your commit segment not to push it
+5.Checkout your master
+6.Update your master
+7.Right click your branch and select merge "branch name" into "master"
+8.Check if your updated master includes all your changes
+9.Delete your branch
+10.Create new branches on your master
+11.Make any changes that does not affect anybody's code
+12.Commit your change
+13.Push your commit (be careful when you push your commit select only the last one
+14.Create pull request to merge all your changes into master.
