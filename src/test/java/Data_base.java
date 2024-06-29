@@ -22,7 +22,18 @@ public class Data_base {
             for(Map<String,Object> each:dataList){
                 System.out.println(each);
             }
-
+@Parameterized Test
+@valueSourse(int{1,2,3,5})
+public void test(int namber)
+PathParam("id",namber);
+@parameterizedTest
+@CsvSorce({Alex,Male,1,2,3,4
+Alexa FeMail 1,3,4,t,5})
+public void test(String name,String gender,long id)
+ Map<String,Object> spartan =new LinkedHashMap<>();
+ spatan.put("name",name)
+ spatan.put("gender",gender)
+ spatan.put("id",id)
         }
         List<Map<Sting,Object>>listRow=new ArrayList<>();
       ResultSetMetaData rsmd =rs.getMetaData;
