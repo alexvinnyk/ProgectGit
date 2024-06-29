@@ -47,7 +47,17 @@ public void test(String name,String gender,long id)
         for(Map<String,Object> each:listRow){
         System.out.printLn(each);
 
-
-
+       @ParameterizedTest
+       @CsvSource({Alexa,Female,1
+                     Alex,Maile,2
+                     Anton,Maile,3});
+       public void test(String name,String gender,Integer id){
+        Map<String,Object> data = new LinkedHashMap<>();
+        data.put("name",name)
+        data.put("gender",gender)
+        data.put("id",id)
+        Json json= given().accept(ContentType.Json).
+        contentType( ContentType.Json)
+        .body(data)
 }*/
 }
