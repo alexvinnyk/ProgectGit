@@ -24,5 +24,19 @@ public class Data_base {
             }
 
         }
+        List<Map<Sting,Object>>listRow=new ArrayList<>();
+      ResultSetMetaData rsmd =rs.getMetaData;
+       int
+       columnCount=rsmd.getColumnCount;
+        While(rs.next()){
+        Map<String,Object>rowMap=new HashMap <>();
+        for(int i=0;i<= columnCount;i++){
+        rowMap.put(rsmd.getColumnName(i),rs.getString(i));
+        listRow.add(rowMap);
+        for(Map<String,Object> each:listRow){
+        System.out.printLn(each);
+
+
+
 }*/
 }
