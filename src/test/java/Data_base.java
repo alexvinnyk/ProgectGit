@@ -47,6 +47,11 @@ public void test(String name,String gender,long id)
         for(Map<String,Object> each:listRow){
         System.out.printLn(each);
 
+ String path ="SampleData.xlsx"
+ FileInputStream file = new FileInputSteam(path);
+ XSSF WorkBook wbook = new XSSFWorkbook(file);
+
+
 
 
 }*/
