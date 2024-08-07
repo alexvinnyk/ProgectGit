@@ -1,5 +1,8 @@
 
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.WebDriver;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -21,7 +24,11 @@ public class Nathing {
         System.out.println("list1 = " + list1);
       // for(ArrayList each1:list1);
 
-
+      /*  WebDriverManager WebDriver;
+        WebDriver.chromedriver().setup();
+        WebDriver driver = new ChromDriver();
+        driver.get("https://cydey.com");
+         */
     }
 
 
